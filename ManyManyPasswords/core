@@ -1,0 +1,10 @@
+start 
+b *main
+run < buf.txt
+b *0x8048777
+c
+infox $esp+0x38
+set *0xbffff3b8=0x71
+a 0x080487b4
+set *0xbffff380=0xbffff3ec
+#a 0x08048855
