@@ -1,3 +1,4 @@
+.gitignore
 Pwn/100questions/100questions.c
 Pwn/100questions/exploit.py
 Pwn/firstPwn/exploit.py
@@ -14,3 +15,4 @@ Rev/ManyManyPasswords/ManyManyPasswords.idb
 Rev/ManyManyPasswords/buf.txt
 Rev/ManyManyPasswords/gdbrc
 Rev/ManyManyPasswords/solver.py
+Rev/crackme/crackme01/crackme01.c
